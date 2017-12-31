@@ -15,6 +15,9 @@
 		0201BD2C1FF987DE00B3E78B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0201BD2A1FF987DE00B3E78B /* LaunchScreen.storyboard */; };
 		0201BD371FF987DE00B3E78B /* ChildPhotoSensorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0201BD361FF987DE00B3E78B /* ChildPhotoSensorTests.swift */; };
 		0201BD421FF987DE00B3E78B /* ChildPhotoSensorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0201BD411FF987DE00B3E78B /* ChildPhotoSensorUITests.swift */; };
+		0201BD521FF9889700B3E78B /* ChildPhotoSensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0201BD511FF9889700B3E78B /* ChildPhotoSensor.swift */; };
+		0201BD551FF98CB700B3E78B /* Nudity.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0201BD541FF98CB700B3E78B /* Nudity.mlmodel */; };
+		0201BD571FF98CD200B3E78B /* AgeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0201BD561FF98CD100B3E78B /* AgeNet.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		0201BD3D1FF987DE00B3E78B /* ChildPhotoSensorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChildPhotoSensorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0201BD411FF987DE00B3E78B /* ChildPhotoSensorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildPhotoSensorUITests.swift; sourceTree = "<group>"; };
 		0201BD431FF987DE00B3E78B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0201BD511FF9889700B3E78B /* ChildPhotoSensor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildPhotoSensor.swift; sourceTree = "<group>"; };
+		0201BD541FF98CB700B3E78B /* Nudity.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Nudity.mlmodel; sourceTree = "<group>"; };
+		0201BD561FF98CD100B3E78B /* AgeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = AgeNet.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,7 @@
 		0201BD1D1FF987DD00B3E78B /* ChildPhotoSensor */ = {
 			isa = PBXGroup;
 			children = (
+				0201BD531FF98C9E00B3E78B /* MLModels */,
 				0201BD1E1FF987DE00B3E78B /* AppDelegate.swift */,
 				0201BD201FF987DE00B3E78B /* ViewController.swift */,
 				0201BD221FF987DE00B3E78B /* Main.storyboard */,
@@ -106,6 +113,7 @@
 				0201BD2A1FF987DE00B3E78B /* LaunchScreen.storyboard */,
 				0201BD2D1FF987DE00B3E78B /* Info.plist */,
 				0201BD251FF987DE00B3E78B /* ChildPhotoSensor.xcdatamodeld */,
+				0201BD511FF9889700B3E78B /* ChildPhotoSensor.swift */,
 			);
 			path = ChildPhotoSensor;
 			sourceTree = "<group>";
@@ -126,6 +134,15 @@
 				0201BD431FF987DE00B3E78B /* Info.plist */,
 			);
 			path = ChildPhotoSensorUITests;
+			sourceTree = "<group>";
+		};
+		0201BD531FF98C9E00B3E78B /* MLModels */ = {
+			isa = PBXGroup;
+			children = (
+				0201BD561FF98CD100B3E78B /* AgeNet.mlmodel */,
+				0201BD541FF98CB700B3E78B /* Nudity.mlmodel */,
+			);
+			path = MLModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,8 +280,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0201BD211FF987DE00B3E78B /* ViewController.swift in Sources */,
+				0201BD521FF9889700B3E78B /* ChildPhotoSensor.swift in Sources */,
+				0201BD571FF98CD200B3E78B /* AgeNet.mlmodel in Sources */,
 				0201BD1F1FF987DE00B3E78B /* AppDelegate.swift in Sources */,
 				0201BD271FF987DE00B3E78B /* ChildPhotoSensor.xcdatamodeld in Sources */,
+				0201BD551FF98CB700B3E78B /* Nudity.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
