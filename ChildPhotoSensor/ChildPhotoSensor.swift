@@ -24,11 +24,11 @@ class ChildPhotoSensor {
     init(image: UIImage) {
         self.image = image
         self.detectFaces { (faces) in
-            if(faces){
+            if(faces && self.safe == nil){
                 self.checkNudity({ (done) in
-                    if(done){
+                    if(done ){
                         self.checkAge({ (done) in
-                            if(done){
+                            if(done ){
                                 self.safe = !(self.minor! && self.nudity!)
                             }
                         })
@@ -54,6 +54,10 @@ class ChildPhotoSensor {
             }
             self.faces = detectedFaces.count
             if(self.faces  > 0){
+                completion(true)
+            }
+            else if(self.faces == 0){
+                self.safe = true
                 completion(true)
             }
         }
