@@ -25,7 +25,7 @@ let safe  = photoSensor.safe!
 ## Built With
 
 * [Nudity](https://drive.google.com/file/d/0B5TjkH3njRqncDJpdDB1Tkl2S2s/vie) - The CoreML model used to check nudity in images.
-* [AgeNet](https://drive.google.com/file/d/0B1ghKa_MYL6mT1J3T1BEeWx4TWc/view) - The CoreML model used to check the subject's age in the images.
+* [AgeNet](https://drive.google.com/file/d/0B1ghKa_MYL6mT1J3T1BEeWx4TWc/view) - The CoreML model used to check a subject's age.
 
 ## Authors
 
