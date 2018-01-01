@@ -1,6 +1,6 @@
 # ChildPhotoSensor
 
-Child pornography photo detector written for iOS with CoreML. Child Photo Sensor is an iOS project written in Swift that checks if an uploaded image is child pornography using Vision and CoreML. All images that do not contain faces are automatically determined as safe.
+Child pornography photo detector written for iOS with CoreML. Child Photo Sensor is an iOS project written in Swift that checks if an uploaded image is child pornography using Vision and CoreML. All images that do not contain faces are automatically determined as safe(does not contain child pornography).
 
 ## Getting Started
 
@@ -18,7 +18,7 @@ Please make sure you have installed XCode 9 or above and your testing device is 
 ```
 let photoSensor = ChildPhotoSensor(image: pickedImage)
 ```
-3. Check if the photo is safe
+3. Check if the photo is safe(does not contain child pornography):
 ```
 let safe  = photoSensor.safe!
 ```
