@@ -38,3 +38,6 @@ This project is licensed under the MIT License.
 ## Disclaimer
 This project has not been tested with actual pornographic images of children.
 
+## Known Issues
+* Questionable accuracy of AgeNet - will be replaced soon with specific CoreML model for detecting minors,
+
