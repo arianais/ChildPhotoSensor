@@ -28,7 +28,7 @@ let safe  = photoSensor.safe!
 * [AgeNet](https://drive.google.com/file/d/0B1ghKa_MYL6mT1J3T1BEeWx4TWc/view) - The CoreML model used to check a subject's age.
 
 ## Known Issues
-* Questionable accuracy of AgeNet - will be replaced soon with specific CoreML model for detecting minors
+* Questionable accuracy of AgeNet - will be replaced soon with specific CoreML model for detecting images of minors
 
 ## Authors
 
