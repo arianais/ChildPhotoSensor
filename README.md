@@ -13,6 +13,7 @@ Please make sure you have installed XCode 9 or above and your testing device is 
 ## Deployment
 
 1. Copy the ChildPhotoSensor.swift file and all models in the CoreML folder found in this repository into your project.
+
 2. Construct a ChildPhotoSensor object with the uploaded image:
 ```
 let photoSensor = ChildPhotoSensor(image: pickedImage)
