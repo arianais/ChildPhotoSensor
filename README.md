@@ -27,6 +27,9 @@ let safe  = photoSensor.safe!
 * [Nudity](https://drive.google.com/file/d/0B5TjkH3njRqncDJpdDB1Tkl2S2s/vie) - The CoreML model used to check nudity in images.
 * [AgeNet](https://drive.google.com/file/d/0B1ghKa_MYL6mT1J3T1BEeWx4TWc/view) - The CoreML model used to check a subject's age.
 
+## Known Issues
+* Questionable accuracy of AgeNet - will be replaced soon with specific CoreML model for detecting minors
+
 ## Authors
 
 * **Ari Sokolov** - *Initial work*
@@ -37,7 +40,3 @@ This project is licensed under the MIT License.
 
 ## Disclaimer
 This project has not been tested with actual pornographic images of children.
-
-## Known Issues
-* Questionable accuracy of AgeNet - will be replaced soon with specific CoreML model for detecting minors
-
