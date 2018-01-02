@@ -85,7 +85,7 @@
 		0201BD121FF987DD00B3E78B = {
 			isa = PBXGroup;
 			children = (
-				0201BD1D1FF987DD00B3E78B /* ChildPhotoSensor */,
+				0201BD1D1FF987DD00B3E78B /* ChildPhotoSensor Sample Project */,
 				0201BD351FF987DE00B3E78B /* ChildPhotoSensorTests */,
 				0201BD401FF987DE00B3E78B /* ChildPhotoSensorUITests */,
 				0201BD1C1FF987DD00B3E78B /* Products */,
@@ -102,10 +102,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0201BD1D1FF987DD00B3E78B /* ChildPhotoSensor */ = {
+		0201BD1D1FF987DD00B3E78B /* ChildPhotoSensor Sample Project */ = {
 			isa = PBXGroup;
 			children = (
-				0201BD531FF98C9E00B3E78B /* MLModels */,
+				0201BD581FFC214B00B3E78B /* ChildPhotoSensor */,
 				0201BD1E1FF987DE00B3E78B /* AppDelegate.swift */,
 				0201BD201FF987DE00B3E78B /* ViewController.swift */,
 				0201BD221FF987DE00B3E78B /* Main.storyboard */,
@@ -113,9 +113,8 @@
 				0201BD2A1FF987DE00B3E78B /* LaunchScreen.storyboard */,
 				0201BD2D1FF987DE00B3E78B /* Info.plist */,
 				0201BD251FF987DE00B3E78B /* ChildPhotoSensor.xcdatamodeld */,
-				0201BD511FF9889700B3E78B /* ChildPhotoSensor.swift */,
 			);
-			path = ChildPhotoSensor;
+			path = "ChildPhotoSensor Sample Project";
 			sourceTree = "<group>";
 		};
 		0201BD351FF987DE00B3E78B /* ChildPhotoSensorTests */ = {
@@ -143,6 +142,15 @@
 				0201BD541FF98CB700B3E78B /* Nudity.mlmodel */,
 			);
 			path = MLModels;
+			sourceTree = "<group>";
+		};
+		0201BD581FFC214B00B3E78B /* ChildPhotoSensor */ = {
+			isa = PBXGroup;
+			children = (
+				0201BD511FF9889700B3E78B /* ChildPhotoSensor.swift */,
+				0201BD531FF98C9E00B3E78B /* MLModels */,
+			);
+			path = ChildPhotoSensor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
