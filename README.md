@@ -1,6 +1,6 @@
 # ChildPhotoSensor
 
-ChildPhotoSensor is an iOS library that scans images for child pornography using CoreML. This library was written for iOS developers using Vision and CoreML models that validate if UIImages contain child pornography. All images that do not contain faces are automatically determined as safe(does not contain child pornography). This reposity also contains a sample project demonstrating the this ChildPhotoSensor's implementation.
+ChildPhotoSensor is an iOS library that scans images for child pornography using CoreML. This library was written for iOS developers using Vision and CoreML models that validate if UIImages contain child pornography. ChildPhotoSensor is not able to validate images that do not contain faces. This reposity also contains a sample project demonstrating the this ChildPhotoSensor's implementation.
 
 ## Getting Started
 
@@ -14,7 +14,7 @@ Please make sure you have installed Xcode 9 or above and your testing device is 
 
 1. Copy the ChildPhotoSensor folder(including the CoreML folder) found in this repository into your project.
 
-2. Construct a ChildPhotoSensor object with the uploaded image:
+2. Construct a ChildPhotoSensor object with a UIImage:
 ```
 let photoSensor = ChildPhotoSensor(image: pickedImage)
 ```
@@ -39,4 +39,5 @@ let safe  = photoSensor.safe!
 This project is licensed under the MIT License.
 
 ## Disclaimer
-This project has not been tested with actual pornographic images of children.
+This project has not been tested with actual pornographic images of children. 
+All images that do not contain faces are automatically determined as safe(does not contain child pornography).
